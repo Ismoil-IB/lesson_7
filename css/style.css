@@ -1,0 +1,32 @@
+@import "null.css";
+
+.wrappe{
+	height: 100%;
+	overflow: hidden;
+}
+
+
+
+.block1 {
+	width: 100%;
+	height: 400px;
+	background: url(../img/logo.png) 100px / 100px  no-repeat,  url(../img/logo.png) 100px 50px / 100px  no-repeat, url(../img/logo.png) 100px 250px / 100px  no-repeat, url(../img/logo.png) 0px 150px / 100px  no-repeat, url(../img/logo.png) 200px 150px / 100px  no-repeat, url(../img/Без\ названия.jpg) rgb(255, 0, 0) 50% / contain no-repeat fixed;
+}
+.block2 {
+	width: 100%;
+	height: 1500px;
+}
+
+
+/*.block2{
+	height: 200px;
+	background-color: rgba(0, 250, 54, 0.616);
+	background-image: url(../img/Без\ названия.jpg) ;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: auto;
+	background-attachment: fixed;
+	background: linear-gradient(180deg, rgba(90,189,218,1) 30%, rgba(255,0,0,1) 35%, rgba(255,255,255,1) 39%, rgba(255,255,255,1) 64%, rgba(255,0,0,1) 67%, rgba(43,221,15,1) 72%);
+	background: rgba(14, 212, 57, 0.788) url(../img/logo.png) 0 0 / cover no-repeat; 
+}
+
